@@ -1,0 +1,27 @@
+.box-global{
+    background-color: chartreuse;
+}
+
+
+.box{
+    background-color: black;
+}
+
+
+div{
+    background-color: blue;
+    color:yellowgreen;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+.mini
+
+.box-3{
+    background-color: red;
+    border: 5px coral;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+}

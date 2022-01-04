@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Czwarta strona</title>
+        <style>
+            body{
+                margin: 0;
+            }
+       .contener{
+           padding: 20px;
+           background-color: gray;
+           
+           width: 80vw;
+           height:40vh ;
+
+           flex-wrap: wrap ;
+           display: flex;
+           /* justify-content:center; */
+           /* align-items:center; */
+           /* align-content:flex-end; */
+           /* flex-direction: column; */
+           /* justify-content:end; */
+           /* align-content:center; */
+         
+       }
+       .item {
+           font-size: 30px;
+           padding: 50px;
+           }
+           .item:nth-last-of-type(7) {
+               flex-grow: 1;
+           }
+
+         .item:nth-last-of-type(4n) {
+             background-color: coral;
+         }
+         .item:nth-last-of-type(4n+1) {
+             background-color: greenyellow;
+         }
+         .item:nth-last-of-type(4n+2) {
+             background-color:blue;
+         }
+         .item:nth-last-of-type(4n+3) {
+             background-color: aquamarine;
+         }
+
+        </style>
+    </head>
+    <body>
+        <div class="contener" >
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+            <div class="item">6</div>
+            <div class="item">7</div>
+            <div class="item">8</div>
+            <div class="item">9</div>
+            <div class="item">10</div>
+
+        </div>
+        
+    </body>
+
+
+</html>

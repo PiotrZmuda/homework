@@ -1,0 +1,46 @@
+/* body {
+  background-color: yellow;
+}
+h2 {
+  font-size: 20px;
+  color:red
+}
+
+#subtitle2 {
+  font-size: 50px;
+  color: blue;
+}
+.subtitle3 {
+  color: brown;
+}
+
+.opis {
+  color: pink
+} */
+
+div {
+  background-color:red;
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+}
+
+#div1 {
+  margin: 36px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: green;
+  padding:50px;
+}
+
+.div2 {
+  height: 100px;
+  width: 100px;
+  margin: 36px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: green;
+  padding: 50px;
+  
+
+}

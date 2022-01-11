@@ -39,9 +39,63 @@ h1 {
   line-height: 28px;
   letter-spacing: -0.06px;
   color: #190f27;
+  height: 50px;
+}
+
+/* SOCIAL-MEDIA START */
+
+.social-media-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 7px rgba(100, 96, 106, 0.2);
+  border-radius: 7px;
+  border: 1.5px solid #413FB5;
+  border-radius: 7px;
+  height: 40px;
+}
+
+.social-media-button:first-of-type{
+    margin-bottom: 10px;
 }
 
 .social-media-button img {
   height: 27px;
   weight: 27px;
+}
+
+.social-media-button span{
+  margin-left: 15px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #190F27;
+}
+
+/* SOCIAL-MEDIA END */
+
+.text-divider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.divider-text{
+padding: 15px 10px;
+font-family: Rubik;
+font-size: 16px;
+font-weight: 300;
+line-height: 23px;
+letter-spacing: -0.0571429px;
+color: #190F27;
+}
+
+.divider{
+    background-color: #edebf0;
+    height: 1px;
+    flex: 1px;
 }

@@ -1,6 +1,5 @@
-body{
-    --font-color:#190F27;
-
+body {
+  --font-color: #190f27;
 }
 
 .wrapper {
@@ -9,15 +8,39 @@ body{
   align-items: center;
 }
 
-.input-wrapper{
-    position: relative;
+.input-wrapper {
+  position: relative;
 }
 
-.input-wrapper input{
-    border: 1px solid #edebf0;
-    border-radius: 7px;
-    height: 45px;
+.input-wrapper input {
+  border: 1px solid #edebf0;
+  border-radius: 7px;
+  height: 45px;
+  width: 100%;
+}
 
+.input-wrapper label {
+  position: absolute;
+  left: 10px;
+  top: -10px;
+  background-color: #fff;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight:300;
+  font-size: 10px;
+  line-height: 20px;
+  letter-spacing: 0.333333px;
+  color: #64606A;
+  padding: 0px 6px;
+}
+
+#last-name{
+  
+  padding: 1px 10px;
+
+}
+.name-container {
+  display: flex;
 }
 
 .login-section {
@@ -61,20 +84,20 @@ h1 {
 
 /* SOCIAL-MEDIA START */
 
-.social-media-button{
+.social-media-button {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 0px 7px rgba(100, 96, 106, 0.2);
   border-radius: 7px;
-  border: 1.5px solid #413FB5;
+  border: 1.5px solid #413fb5;
   border-radius: 7px;
   height: 40px;
 }
 
-.social-media-button:first-of-type{
-    margin-bottom: 10px;
+.social-media-button:first-of-type {
+  margin-bottom: 10px;
 }
 
 .social-media-button img {
@@ -82,7 +105,7 @@ h1 {
   width: 27px;
 }
 
-.social-media-button span{
+.social-media-button span {
   margin-left: 15px;
   font-family: Rubik;
   font-style: normal;
@@ -94,25 +117,24 @@ h1 {
 
 /* SOCIAL-MEDIA END */
 
-.text-divider{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+.text-divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.divider-text{
-padding: 15px 10px;
-font-family: Rubik;
-font-size: 16px;
-font-weight: 300;
-line-height: 23px;
-letter-spacing: -0.0571429px;
-color: var(--font-color);
+.divider-text {
+  padding: 15px 10px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 23px;
+  letter-spacing: -0.0571429px;
+  color: var(--font-color);
 }
 
-.divider{
-    background-color: #edebf0;
-    height: 1px;
-    flex: 1px;
+.divider {
+  background-color: #edebf0;
+  height: 1px;
+  flex: 1px;
 }
